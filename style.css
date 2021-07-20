@@ -1,0 +1,140 @@
+/* .main {
+    width: 50%;
+    margin: 50px auto;
+} */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    /* text-align: center; */
+    pointer-events: none;
+    color: #aaa;
+    right: 30px;
+}
+
+
+
+.banner{
+    background:#FEEAE9;;
+}
+
+.panda-bg-info{
+    background-color: #fceae8;
+}
+.categories img{
+    width: 100px;
+}
+.panda-btn-buy-now{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+    margin-left: 100px;
+}
+
+.col-lg-5 img{
+    margin-right: 30px;
+}
+
+
+.slide-text h1,.slide-text p{
+  margin-left: 100px;
+
+ /* color: yellow; */
+ 
+}
+
+.card-text{
+    height: 120px;
+}
+
+.categories img{
+    width: 100px;
+}
+
+.bg-1{
+    background: linear-gradient( 177deg, #e6d643,#887e20, #cc6d1f);
+}
+.bg-2{
+    background: linear-gradient( 177deg, #f5f4e9,#e275a8, #e02ba4);
+}
+.bg-3{
+    background: linear-gradient( 177deg, #fdfdfa,#4d5cdd, #131969);
+}
+
+
+@media only screen and (max-width: 991px){
+
+   .nav-logo{
+       display: flex;
+       flex-direction: column;
+   }
+
+ .button,.navbar-nav{
+     width: 100%;
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+
+     
+ }
+.main{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+  justify-content: center;
+
+}
+
+
+.has-search .form-control-feedback {
+    position: relative;
+    margin-top: 15px;
+}
+
+ .form-group{
+     width: 100%;
+     margin-right: 0;
+ 
+ }
+
+ .col-lg-5{
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-right: 0;
+     margin-right: 0;
+  
+ }
+
+ .col-lg-5 img{
+     /* align-items: center; */
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.panda-btn-buy-now,.slide-text h1,p{
+    margin-left: 0;
+
+ }
+
+
+ .slide-text h1,.slide-text p{
+    margin-left: 0;
+}
