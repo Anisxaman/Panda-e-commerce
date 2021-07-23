@@ -23,7 +23,8 @@
 
 
 .banner{
-    background:#FEEAE9;;
+    background:#FEEAE9;
+    margin-top: 130px;
 }
 
 .panda-bg-info{
@@ -73,6 +74,13 @@
 
 
 @media only screen and (max-width: 991px){
+
+
+    
+.banner{
+    background:#FEEAE9;
+    margin-top: 130px;
+}
 
    .nav-logo{
        display: flex;
@@ -137,4 +145,24 @@
 
  .slide-text h1,.slide-text p{
     margin-left: 0;
+}
+
+
+
+
+
+@media only screen and (max-width: 837px){
+    .banner{
+        margin-top: 266px;
+    }
+}
+
+
+@media only screen and (max-width: 560px){
+    .has-search .form-control-feedback {
+        position: relative;
+       
+        right: 30px;
+        bottom: 5px;
+    }
 }
